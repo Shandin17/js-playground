@@ -1,0 +1,18 @@
+{
+  "name": "js-playground",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "types": "tsc -p tsconfig.json",
+    "fmt": "prettier --write .",
+    "lint": "eslint . --fix && prettier --write ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "eslint": "^9.22.0",
+    "eslint-config-metarhia": "^9.1.1",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  }
+}
